@@ -1,37 +1,53 @@
-<style>
-        /* Estilos básicos */
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 20px;
-        }
+html {
+    height: 100%;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    /* Agrega la imagen de fondo */
+    background-image: url('https://computacioninteractiva.com/wp-content/uploads/2019/11/GettyImages_917581126.0.jpg');
+    /* Centra y ajusta la imagen de fondo */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
-        h1, h2, h3, p {
-            margin-bottom: 20px;
-        }
+header {
+    background-color: rgba(51, 51, 51, 0.8);
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
 
-        /* Animación personalizada */
-        .animated {
-            animation-duration: 3s;
-            animation-fill-mode: both;
-        }
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1em;
+}
 
-        @keyframes fadeIn {
-            0% {opacity: 0;}
-            100% {opacity: 1;}
-        }
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* Agrega un fondo semi-transparente a los elementos del contenedor */
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 2em;
+    border-radius: 10px;
+}
 
-        .fadeIn {
-            animation-name: fadeIn;
-        }
+.texto-animado {
+    font-size: 24px;
+    margin-bottom: 1em;
+    opacity: 0;
+}
 
-        @keyframes slideIn {
-            0% {transform: translateY(-100%);}
-            100% {transform: translateY(0%);}
-        }
-
-        .slideIn {
-            animation-name: slideIn;
-        }
-    </style>
+.boton-animado {
+    padding: 0.5em 1em;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
