@@ -29,8 +29,13 @@ body {
     background-repeat: no-repeat;
 	opacity: 0.9;
     padding: 40px 0;
-	color:white;
     text-align: center;
+	color:white;
+}
+.intro{
+	color:white;
+	text-align: justify;
+	padding: 20px;
 }
 
 .container {
