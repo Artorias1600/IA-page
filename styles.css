@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+	margin: 0;
+    padding: 0;
+}
+
+.background {
+    background-image: url("https://thumbs.dreamstime.com/b/concepto-del-negocio-de-la-inteligencia-artificial-fondo-web-tecnolog%C3%ADa-y-ingenier%C3%ADa-futuro-internet-cibern%C3%A9tico-futurista-201479505.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh; /* Asegura que el fondo se extienda hasta el final */
+}
+
+.header {
+    background-image: url("https://static.vecteezy.com/system/resources/previews/000/544/006/non_2x/futuristic-digital-transformation-abstract-technology-blue-background-artificial-intelligence-and-big-data-concept-business-growth-computer-and-hacking-cyber-security-theme-vector-illustration.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.info-box {
+    flex: 0 0 calc(50% - 10px);
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+	border-radius: 50px;
+}
+
+.info-box img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.footer {
+    background-image: url("fondo-pie.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 28.125%; /* 50% del valor original (56.25%) */
+    padding-top: 25px;
+    height: 0;
+    width: 50%; /* Ancho del video */
+    margin: 0 auto; /* Centrar el video */
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
