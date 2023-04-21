@@ -17,7 +17,9 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+	opacity: 0.9;
     padding: 40px 0;
+	color:white;
     text-align: center;
 }
 
@@ -36,7 +38,7 @@ body {
 
 .info-box {
     flex: 0 0 calc(50% - 10px);
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: white;
     padding: 20px;
     box-sizing: border-box;
     margin-bottom: 20px;
